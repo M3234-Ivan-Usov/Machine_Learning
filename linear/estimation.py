@@ -2,8 +2,8 @@ from math import sqrt
 
 import numpy as np
 from matplotlib import pyplot as plt
-from structures import Model
-import gradient
+from linear.structures import Model
+import linear.gradient as gradient
 
 # Do not know, how to initialise
 REG_MIN = 0.0

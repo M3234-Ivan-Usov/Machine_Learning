@@ -1,8 +1,8 @@
 import numpy as np
 
-import estimation
-from functions import estimate_loss
-from structures import Model
+import linear.estimation as estimation
+from linear.functions import estimate_loss
+from linear.structures import Model
 
 
 def compute(dataset, loss_function):

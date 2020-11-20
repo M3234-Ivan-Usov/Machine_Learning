@@ -3,7 +3,7 @@ from math import sqrt
 import pandas as pd
 from matplotlib import pyplot as plt
 import numpy as np
-import params
+import kNN.params as params
 import time
 
 

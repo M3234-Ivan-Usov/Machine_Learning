@@ -3,9 +3,9 @@ from math import sqrt
 
 import numpy as np
 
-import estimation
-import functions
-from structures import Model
+import linear.estimation as estimation
+import linear.functions as functions
+from linear.structures import Model
 
 LAMBDA = 0.01
 EPS = 0.1

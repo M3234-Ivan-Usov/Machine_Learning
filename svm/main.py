@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib.colors import ListedColormap
 
-import kernels
+import svm.kernels as kernels
 from matplotlib import pyplot as plt
 
 BETA = [1, 2, 3, 4, 5]

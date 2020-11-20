@@ -1,10 +1,10 @@
 import numpy as np
 
-import estimation
-import functions
-import gradient
-import least_squares
-import structures
+import linear.estimation as estimation
+import linear.functions as functions
+import linear.gradient as gradient
+import linear.least_squares as least_squares
+import linear.structures as structures
 
 
 def parse(offset, objects_amount):
@@ -111,4 +111,3 @@ estimation.estimate(test_dataset, best_mini_batch)
 estimation.draw_plot(test_dataset, best_stochastic[1], "stochastic")
 estimation.draw_plot(test_dataset, best_classic[1], "classic")
 estimation.draw_plot(test_dataset, best_mini_batch[1], "mini_batch")
-estimation.draw_plot(train_dataset, be)
